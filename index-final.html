@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Final Web Design - CSS Grid Page Dashboard</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <header class="header">
+        <div class="header__search">
+          <input type="text" id="search" placeholder="search..." />
+        </div>
+        <div class="header__avatar">
+          <img
+            src="profil.jpeg"
+            class="avatar-img"
+          />
+        </div>
+      </header>
+
+      <aside class="sidenav">
+        <div class="sidenav__close-icon">
+        </div>
+        <div class="brand">
+          <i class="fa-solid fa-school"></i>&nbsp;&nbsp;
+          <h1>SCHOOL</h1>
+        </div>
+        <ul class="sidenav__list">
+          <li><i class="fa-solid fa-gauge"></i><span>Dashboard</span></li>
+          <li><i class="fa-solid fa-graduation-cap"></i><span>Student</span></li>
+          <li><i class="fa-solid fa-building-columns"></i><span>Teacher</span></li>
+          <li><i class="fa-solid fa-school"></i><span>Classroom</span></li>
+          <li><i class="fa-solid fa-hand-holding-dollar"></i><span>Cost</span></li>          
+        </ul>
+      </aside>
+
+      <main class="main">
+        <div class="main-header">
+          <div class="main-header__heading"></div>
+          <div class="main-header__updates"></div>
+        </div>
+        <div class="main-overview">
+          <div class="overviewcard">
+            <div class="overviewcard__icon">
+              <h1>1704</h1>
+              <h3>Student Data</h3>
+            </div>
+            <div class="overviewcard__info">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon">
+              <h1>25</h1>
+              <h3>Teacher Data</h3>
+            </div>
+            <div class="overviewcard__info">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon">
+              <h1>14</h1>
+              <h3>Classroom</h3>
+            </div>
+            <div class="overviewcard__info">
+              <i class="fa-solid fa-school"></i>
+            </div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon">
+              <h1>$550000</h1>
+              <h3>Cost</h3>
+            </div>
+            <div class="overviewcard__info">
+              <i class="fa-solid fa-hand-holding-dollar"></i>
+            </div>
+          </div>
+        </div>
+        
+       <div class="main-cards">
+        <div class="card card-span">
+          <h3>STUDENT</h3>
+          <img src="siswa.jpg" alt="Kesehatan Mental" class="card-image" />
+          <p>
+            A student or learner is an individual who is actively involved in the learning process, either in a formal environment such as school, college, university, or in special training. They have the main goal of gaining knowledge, skills, and experience that will support their personal or professional development in the future. As learners, they are required to be diligent, disciplined, and have a high curiosity about various things.
+          </p>
+        </div>
+        <div class="card">
+          <h3>TEACHER</h3>
+          <img src="guru.jpg" class="card-image" />
+          <p>
+            A teacher is an individual who plays a vital role in the educational journey of others by imparting knowledge, skills, and values. 
+          </p>
+        </div>
+        <div class="card">
+          <h3>CLASSROOM</h3>
+          <img src="Kelas.jpg" class="card-image" />
+          <p>
+            A classroom is a dedicated space where teaching and learning take place.
+          </p>
+        </div>
+      </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__copyright">&copy; BudiDharmaSchool</div>
+        <div class="footer__signature">Keep up the spirit to achieve your dreams</div>
+      </footer>
+    </div>
+  </body>
+</html>
